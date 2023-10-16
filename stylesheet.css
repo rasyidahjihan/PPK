@@ -179,5 +179,6 @@ body {
   .element {
     width: 50%; /* 50% dari lebar parent */
     font-size: 2em; /* 2x ukuran font standar */
+  }
 
   
