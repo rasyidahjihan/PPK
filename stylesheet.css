@@ -1,183 +1,36 @@
-body {
-    background-color: #eff1f2;
-    font-family: sans-serif;
-  }
-   
-  .content {
-    grid-area: content;
-  }
-   
-  .sidebar {
-    grid-area: sidebar;
-    background: linear gradient ( toright,
-      merah (200, 107, 142, 1),
-      putih (218, 105, 250, 1),
-      kuning (110, 125, 253, 1)
-    );
-    justify-content: center;
-  }
-   
-  .footer {
-    grid-area: footer;
-    background: white;
-  }
-   
-  .container {
-    font-size: 1.5 em;
-    width: 100 %;
-    height: 100;
-    height: 100 vh;
-    display: grid;
-    grid-template-areas: 'sidebar' 'content' 'footer';
-    grid-template-columns: 1 fr;
-    grid-template-rows: 130 px 800 px 250 px;
-  }
-   
-  .content,
-  .sidebar,
-  .footer {
-    padding: 1 em;
-  }
-   
-  nav ul {
-    margin: 0;
-    padding: 0;
-    display: flex;
-    justify-content: space-between;
-    text-align: center;
-  }
-   
-  nav li {
-    list-style: none;
-    padding: 1-em 0;
-  }
-   
-  nav li a {
-    color: white;
-    font-weight: 700;
-    opacity: 0.6;
-    text-decoration: none;
-    transition: 0.3-s;
-  }
-   
-  nav li a:hover {
-    opacity: 1;
-  }
-   
-  .hero {
-    max-width: 90 px;
-    margin: 0 auto;
-    text-align: center;
-  }
-   
-  .hero img {
-    width: 200 px;
-  }
-   
-  .hero h1 {
-    font-size: 2 em;
-    font-weight: 300;
-    color: #373046;
-  }
-   
-  .hero p {
-    font-weight: 300;
-    line-height: 1.3 em;
-    color: #98abad;
-  }
-   
-  .action-btn {
-    display: inline-block;
-    text-decoration: none;
-    color: white;
-    font-weight: 700;
-    background: #567bfb;
-    padding: 0.5 em 2 em;
-    border-radius: 60 px;
-    margin: 1 em 0;
-    transition: 0.3 s;
-  }
-   
-  footer ul {
-    max-width: 640 px;
-    margin: 2 em auto;
-    padding: 0;
-    text-align: center;
-    display: flex;
-    flex-direction: row;
-  }
-   
-  footer ul li {
-    list-style: none;
-    align-self: flex-end;
-  }
-   
-  footer ul li a {
-    text-decoration: none;
-    color: #c1c6ce;
-  }
-   
-  footer ul li img {
-    width: 30 %;
-  }
-   
-  footer p {
-    font-size: 0.8 em;
-  }
-   
-  (min-width: 1040 px) {
-    .container {
-      grid-template-areas: 'sidebar content' 'sidebar footer';
-      grid-template-rows: 1 fr auto;
-      grid-template-columns: 300 px 1 f;
-    }
-   
-    nav ul {
-      display: flex;
-      justify-content: space-between;
-      flex-direction: column;
-    }
-   
-    .sidebar {
-      background: linear-gradient (
-        rgba (200, 107, 142, 1),
-        rgba (218, 105, 250, 1),
-        rgba (110, 125, 253, 1)
-      );
-      padding-top: 10 em;
-    }
-   
-    .hero {
-      text-align: left;
-      margin: 7 em 0;
-    }
-   
-    .hero img {
-      width: 200 px;
-      float: right;
-    }
-   
-    .hero h1 {
-      font-size: 3 em;
-    }
-   
-    .hero p {
-      width: 60 %;
-    }
-   
-    footer ul {
-      max-width: 900 px;
-      margin: 0 auto;
-      padding: 1 em 0;
-    }
-   
-    footer ul li a img {
-      width: 20 %;
-    }
-  }
-  .element {
-    width: 50 %; /* 50% dari lebar parent */
-    font-size: 2 em; /* 2x ukuran font standar */
-  }
+/* Style untuk judul formulir */
+.form-title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
 
-  
+/* Style untuk label elemen-elemen dalam formulir */
+.label {
+  font-weight: bold;
+  display: block;
+  margin-bottom: 5px;
+}
+
+/* Style untuk input elemen */
+.input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+/* Style untuk pilihan agama */
+.select-religion {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+/* Style untuk pilihan bahasa yang dikuasai */
+.select-language {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+
