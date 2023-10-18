@@ -19,18 +19,29 @@
   margin-bottom: 10px;
 }
 
-/* Style untuk pilihan agama */
-.select-religion {
+/* Style untuk pilihan agama dan bahasa yang dikuasai */
+.select-religion, .select-language {
   width: 100%;
   padding: 10px;
   margin-bottom: 10px;
 }
 
-/* Style untuk pilihan bahasa yang dikuasai */
-.select-language {
-  width: 100%;
-  padding: 10px;
-  margin-bottom: 10px;
+/* Style untuk tombol Kirim */
+.btn-kirim {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #3498db;
+  color: white;
+  border: none;
+  cursor: pointer;
 }
 
+.btn-kirim:hover {
+  background-color: #2980b9;
+}
 
+/* Style untuk kalimat instruksi */
+.instruction {
+  font-style: italic;
+  margin-top: 10px;
+}
